@@ -1,0 +1,33 @@
+p{ /*center text*/
+    text-align: center;
+    
+}
+
+title{ /*center title and h1*/
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h1{ /*border around h1*/
+    border: 5px solid rgb(170, 100, 177);
+}
+
+img{ /*circle picture*/
+    border-radius: 50%;
+}
+
+img{
+    border: 5px solid rgb(240, 114, 213);
+}
+      
+
+   
+
+
+      
+      
+ 
+  
