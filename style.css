@@ -1,27 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Source+Code+Pro:ital@1&display=swap');
+
+
+
+.name{
+   /* background-image: url('/image/CWlogo.png');
+    color: lawngreen;*/
+}
+
 p{ /*center text*/
     text-align: center;
+
     
 }
 
 title{ /*center title and h1*/
     text-align: center;
-}
 
-h1{
-    text-align: center;
 }
 
 h1{ /*border around h1*/
-    border: 5px solid rgb(170, 100, 177);
+    border: 2px solid rgb(170, 100, 177);
+
+    text-align: center;
+    font-family: 'Bitter family';
+
 }
 
-img{ /*circle picture*/
-    border-radius: 50%;
-}
+
 
 img{
-    border: 5px solid rgb(240, 114, 213);
+    border: 5px solid rgb(58, 52, 57);
+    /*border-radius: 50%;*/
 }
+
+*{
+    font-family: 'Bitter family';
+
+}
+
       
 
    
