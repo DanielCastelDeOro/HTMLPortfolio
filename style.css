@@ -2,9 +2,12 @@
 
 
 
-.name{
+/*.name{
     background-image: url('/image/CWlogo.png');
     color: lawngreen;
+}*/
+*{
+    background-color: rgb(16, 16, 63);
 }
 
 p{ /*center text*/
