@@ -30,8 +30,7 @@ title{ /*center title and h1*/
 
 }
 
-h1{ /*border around h1*/
-   /* border: 2px solid rgb(170, 100, 177);*/
+h1{ 
 
     text-align: center;
     font-family: 'Bitter family';
@@ -53,7 +52,52 @@ img{
  body{
     background-color: rgb(10, 25, 47);
 
- }     
+ }   
+ 
+ .numbered-heading{
+    color: #64ffda;
+     
+ }
+
+ .heading-info{
+    font-size: 20px;
+ }
+
+ /* .night-vision-effect { 
+    
+    img src="image/linkedin.jpg" alt="personal photo" 
+
+  line-width: 5px;
+  
+    background-image:
+     
+      radial-gradient(
+        #0F0,
+        #000
+      ),
+      repeating-linear-gradient(
+        transparent 0,
+        rgba(0,0,0,0.1) line-width/2,
+        transparent line-width
+      );
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+  }
+  
+  [class$=-effect] img {
+    vertical-align: top !important;
+    margin: 0 !important;
+    opacity: 0 !important;
+  }
+  /* CodePen Styles */
+/* body {
+    display: flex;
+    height: 100vh;
+  }
+  div {
+    margin: auto;
+  /* }   */ */ */
 
    
 
