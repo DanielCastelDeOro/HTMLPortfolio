@@ -2,17 +2,26 @@
 
 
 
-/*.name{
-    background-image: url('/image/CWlogo.png');
-    color: lawngreen;
-}*/
+.name{
+   
+    color: #64ffda;
+}
 *{
-    background-color: rgb(16, 16, 63);
+    background-color: rgb(10, 25, 47);
+}
+
+.full_name{
+    color: #ccd6f6;
+    
+}
+
+.big-heading{
+    font-size: 55px;
 }
 
 p{ /*center text*/
     text-align: center;
-
+    color:rgb(#8892b0)
     
 }
 
@@ -22,7 +31,7 @@ title{ /*center title and h1*/
 }
 
 h1{ /*border around h1*/
-    border: 2px solid rgb(170, 100, 177);
+   /* border: 2px solid rgb(170, 100, 177);*/
 
     text-align: center;
     font-family: 'Bitter family';
@@ -41,7 +50,10 @@ img{
 
 }
 
-      
+ body{
+    background-color: rgb(10, 25, 47);
+
+ }     
 
    
 
