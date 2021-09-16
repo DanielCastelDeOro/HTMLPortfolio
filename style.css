@@ -120,34 +120,55 @@ img{
   font-size: 20px;
 }
 
-/* Style the social media icons with color, if you want */
+/* Style the social media icons with color*/
 .icon-bar a:hover {
-  background-color: #000;
-}
-
-.facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.twitter {
-  background: #55ACEE;
-  color: white;
+  color: #64ffda;
+  ;
 }
 
 .google {
-  background: #dd4b39;
-  color: white;
+
+  color: #64ffda;
+
 }
 
 .linkedin {
-  background: #007bb5;
-  color: white;
+  
+  color: #64ffda;
+
 }
 
-.youtube {
-  background: #bb0000;
-  color: white;
+
+.github{
+  
+  color: #64ffda;
+
+}
+
+.codepen{
+  
+  color: #64ffda;
+
+
+}
+
+.btn-group button {
+  background-color: rgb(10, 25, 47); 
+  border: 1px solid #64ffda; 
+  color: #8892b0; 
+  padding: 10px 24px; 
+  cursor: pointer;
+  width: 10%; 
+  display: block; 
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+
+.btn-group button:hover {
+  background-color: #bcebf3;
 }
    
 
