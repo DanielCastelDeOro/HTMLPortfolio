@@ -170,6 +170,29 @@ img{
 .btn-group button:hover {
   background-color: #bcebf3;
 }
+
+.CPR{
+  color: #64ffda;
+  font-size: 20px;
+  /* border: 5px  rgb(58, 52, 57); */
+
+}
+
+.ADR{
+  color: #64ffda;
+  font-size: 20px;
+  /* border: 5px  rgb(58, 52, 57); */
+
+}
+
+.ICE{
+  color: #64ffda;
+  font-size: 20px;
+  /* border: 5px  rgb(58, 52, 57); */
+
+}
+
+
    
 
 
