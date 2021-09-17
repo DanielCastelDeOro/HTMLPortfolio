@@ -22,6 +22,7 @@
 
 p{ /*center text*/
     text-align: center;
+    
     color:rgb(#8892b0)
     
 }
@@ -38,12 +39,6 @@ h1{
 
 }
 
-
-
-img{
-    border: 5px solid rgb(58, 52, 57);
-    /*border-radius: 50%;*/
-}
 
 *{
     font-family: 'Bitter family';
@@ -65,49 +60,16 @@ img{
     color: #8892b0;
  }
 
- /* .night-vision-effect { 
-    
-    img src="image/linkedin.jpg" alt="personal photo" 
-
-  line-width: 5px;
-  
-    background-image:
-     
-      radial-gradient(
-        #0F0,
-        #000
-      ),
-      repeating-linear-gradient(
-        transparent 0,
-        rgba(0,0,0,0.1) line-width/2,
-        transparent line-width
-      );
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-  }
-  
-  [class$=-effect] img {
-    vertical-align: top !important;
-    margin: 0 !important;
-    opacity: 0 !important;
-  }
-  /* CodePen Styles */
-/* body {
-    display: flex;
-    height: 100vh;
-  }
-  div {
-    margin: auto;
-  /* }   */ */ */
+ 
 
   /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;
-  top: 50%;
+  top: 4%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  
 }
 
 /* Style the icon bar links */
@@ -118,6 +80,7 @@ img{
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
+  
 }
 
 /* Style the social media icons with color*/
@@ -191,6 +154,47 @@ img{
   /* border: 5px  rgb(58, 52, 57); */
 
 }
+
+.container {
+  position: absolute;
+  width: 50%;
+  left: 80%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 30%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-style: double;
+  border-width: 10px;
+  border-color: #64ffda;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+ 
+}
+
+.container:hover .middle {
+  opacity: 1;
+
+}
+
 
 
    
