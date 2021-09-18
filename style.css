@@ -9,12 +9,10 @@
 *{
     background-color: rgb(10, 25, 47);
     font-family: 'Bitter family';
-    
 }
 
 .full_name{
     color: #ccd6f6;
-    
 }
 
 .big-heading{
@@ -26,29 +24,24 @@ p{ /*center text*/
     text-align: center;
     
     color:rgb(#8892b0)
-    
 }
 
 title{ /*center title and h1*/
     text-align: center;
-
 }
 
 h1{ 
-
     text-align: center;
     font-family: 'Bitter family';
-
 }
 
  body{
     background-color: rgb(10, 25, 47);
-    
  }   
  
  .numbered-heading{
     color: #64ffda;
-     
+     margin-top: 50px;
  }
 
  .heading-info{
@@ -65,7 +58,6 @@ h1{
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  
 }
 
 /* Style the icon bar links */
@@ -76,39 +68,28 @@ h1{
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
-  
 }
 
 /* Style the social media icons with color*/
 .icon-bar a:hover {
   color: #64ffda;
-  
 }
 
 .google {
-
   color: #64ffda;
-
 }
 
 .linkedin {
-  
   color: #64ffda;
-
 }
 
 
 .github{
-  
   color: #64ffda;
-
 }
 
 .codepen{
-  
   color: #64ffda;
-
-
 }
 
 .btn-group button {
@@ -134,27 +115,25 @@ h1{
   color: #8892b0;
   font-size: 20px;
   /* border: 5px  rgb(58, 52, 57); */
-
 }
 
 .ADR{
   color: #8892b0;
   font-size: 20px;
   /* border: 5px  rgb(58, 52, 57); */
-
 }
 
 .ICE{
   color: #8892b0;
   font-size: 20px;
   /* border: 5px  rgb(58, 52, 57); */
-
 }
 
 .container {
   position: absolute;
   width: 50%;
   left: 80%;
+  filter: contrast(100%);
 }
 
 .image {
@@ -167,7 +146,6 @@ h1{
   border-style: double;
   border-width: 10px;
   border-color: #64ffda;
-  
 }
 
 .middle {
@@ -183,12 +161,10 @@ h1{
 
 .container:hover .image {
   opacity: 0.3;
- 
 }
 
 .container:hover .middle {
   opacity: 1;
-
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -200,6 +176,7 @@ h1{
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   font-size: 15px;
   float: right;
+  margin-bottom: 50px;
 }
 
 /* This container is needed to position the front and back side */
@@ -210,7 +187,6 @@ h1{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -231,6 +207,7 @@ h1{
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  filter: invert(100%);
 }
 
 /* Style the back side */
@@ -243,8 +220,74 @@ h1{
 .sqlFont{
   font-size: 20px;
   color: #8892b0;
-
 }
+
+.Hello {
+  /* background-color: #4CAF50; */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+
+.Hello {
+  /* background-color: white;  */
+  color:#64ffda; 
+  border: 2px solid #64ffda;
+  position: center;
+}
+
+.Hello:hover {
+  background-color: rgb(94, 96, 99);
+  color:#64ffda;
+  position: center;
+}
+
+.Ending{
+  color: #64ffda;
+  text-align: center;
+  margin-top: 77px;
+  margin-bottom: 37px;
+  opacity: 1;
+}
+
+.Resume {
+  /* background-color: #4CAF50; */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 17px;
+}
+
+.Resume {
+  /* background-color: white;  */
+  color:#64ffda; 
+  border: 2px solid #64ffda;
+  position: center;
+}
+
+.Resume:hover {
+  background-color: rgb(94, 96, 99);
+  color:#64ffda;
+  position: center;
+}
+
+
 
 
 
